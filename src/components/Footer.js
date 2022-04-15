@@ -8,7 +8,7 @@ const Footer = () => {
       <span>Copyright &copy; 2022 Bilal Ali</span>
       <a
         href="https://github.com/bilala45/personal-website"
-        className="hover:underline decoration-4 underline-offset-2 decoration-[#00bad6]"
+        className="hover:underline decoration-4 underline-offset-2 decoration-indigo-500"
       >
         source code <FontAwesomeIcon icon={faGithub} />
       </a>

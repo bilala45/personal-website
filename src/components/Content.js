@@ -1,12 +1,12 @@
 import Navigation from "./Navigation";
 import MainInfo from "./MainInfo";
 import Footer from "./Footer";
-import ScrollIndicator from "./ScrollIndicator";
+import ScrollProgress from "./ScrollProgress";
 
 const Content = () => {
   return (
     <>
-      <ScrollIndicator />
+      <ScrollProgress />
       {/* wraps content with max width and adds padding */}
       <div className="max-w-screen-md mx-auto px-8">
         {/* wraps main content of site to be full height of screen */}
