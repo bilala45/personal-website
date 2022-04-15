@@ -1,6 +1,6 @@
 import Link from "./Link";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faNoteSticky } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   const github = "https://github.com/bilala45";
@@ -13,6 +13,7 @@ const Contact = () => {
       <Link icon={faGithub} link={github} />
       <Link icon={faLinkedin} link={linkedin} />
       <Link icon={faEnvelope} link={email} />
+      <Link icon={faNoteSticky} />
     </div>
   );
 };
