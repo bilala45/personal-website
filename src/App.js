@@ -1,11 +1,11 @@
-import About from "./components/About";
-import Header from "./components/Header";
+import Content from "./components/Content";
 
 const App = () => {
+  // base page of app
+  // wrapping content in div allows you to change background color of site
   return (
-    <div>
-      <Header />
-      <About />
+    <div className="w-screen h-screen bg-[#edf6f9]">
+      <Content />
     </div>
   );
 };
