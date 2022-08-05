@@ -1,31 +1,17 @@
 import ScrollProgress from "./components/ScrollProgress";
 import Content from "./components/Content";
-import Footer from "./components/Footer";
+import Intro from "./components/Intro";
 
-const App = () => {
-  return (
-    <div className="w-screen bg-[#edf6f9]">
-      <ScrollProgress />
+const App = () => (
+  // comment out footer for now and add it back in at the end
+  // Wrap content and footer in a div to restrict the max screen size
+  <body className="w-screen min-h-screen bg-[#edf6f9]">
+    <ScrollProgress />
+    <div className="max-w-screen-lg mx-auto pt-32">
+      <Intro />
       <Content />
-      <Footer />
     </div>
-  );
-};
+  </body>
+);
 
 export default App;
-
-// const Content = () => {
-//   return (
-//     <>
-//       <ScrollProgress />
-//       {/* wraps content with max width and adds padding */}
-//       <div className="max-w-screen-md mx-auto px-8">
-//         {/* wraps main content of site to be full height of screen */}
-//         <div className="h-screen grid place-content-center">
-//           <MainInfo />
-//         </div>
-//         <Footer />
-//       </div>
-//     </>
-//   );
-// };

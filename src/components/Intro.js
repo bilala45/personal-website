@@ -3,17 +3,14 @@ import Contact from "./Contact";
 const Intro = () => {
   return (
     // wrapper inherits parent height (screen height)
-    <div>
-      <h1 className="text-5xl tracking-wide font-semibold antialiased">
-        {/* emoji for waving hand and hand color included */}
-        <span>Hey, I'm Bilal! &#128075;&#127997;</span>
+    <div className="text-center">
+      <h1 className="text-6xl tracking-wide font-semibold antialiased">
+        <span>Bilal Ali</span>
       </h1>
-      <h2 className="text-2xl pt-6 tracking-wide font-light">
-        computer science student @ upenn
+      <h2 className="text-2xl pt-6 tracking-wide font-normal">
+        computer science student @ UPenn
       </h2>
-
       <div className="flex justify-center">
-        {/* contact links */}
         <Contact />
       </div>
     </div>

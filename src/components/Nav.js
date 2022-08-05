@@ -1,13 +1,11 @@
-// this should probably match the styling that the scroll indicator has (fixed position, z-index)
+import NavLink from "./NavLink";
 
-const Nav = () => {
-  return (
-    <div className="py-6 h-2 z-10 fixed">
-      <div>about</div>
-      <div>project</div>
-      <div>resources</div>
-    </div>
-  );
-};
+const Nav = () => (
+  <div className="pl-4">
+    <NavLink title="About" />
+    <NavLink title="Projects" />
+    <NavLink title="Resources" />
+  </div>
+);
 
 export default Nav;
