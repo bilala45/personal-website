@@ -1,6 +1,6 @@
 import Contact from "./Contact";
 
-const MainInfo = () => {
+const Intro = () => {
   return (
     // wrapper inherits parent height (screen height)
     <div>
@@ -11,10 +11,13 @@ const MainInfo = () => {
       <h2 className="text-2xl pt-6 tracking-wide font-light">
         computer science student @ upenn
       </h2>
-      {/* contact links */}
-      <Contact />
+
+      <div className="flex justify-center">
+        {/* contact links */}
+        <Contact />
+      </div>
     </div>
   );
 };
 
-export default MainInfo;
+export default Intro;

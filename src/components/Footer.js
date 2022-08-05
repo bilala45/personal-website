@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     // elements placed in flex container to place at both ends
     <div className="flex justify-between py-2">
-      <span>Copyright &copy; 2022 Bilal Ali</span>
+      <span>Bilal Ali &copy; 2022</span>
       <a
         href="https://github.com/bilala45/personal-website"
         className="hover:underline decoration-4 underline-offset-2 decoration-indigo-500"
