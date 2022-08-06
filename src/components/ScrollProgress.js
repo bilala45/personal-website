@@ -3,13 +3,16 @@ import { useState } from "react";
 const ScrollProgress = () => {
   const [scrollPercent, setScrollPercent] = useState(0);
 
+  // fires on user scroll
   window.onscroll = () => {
-    setScrollPercent(
-      Math.round(
-        (window.scrollY / (document.body.clientHeight - window.innerHeight)) *
-          100
-      )
-    );
+    const viewHeight = document.body.clientHeight - window.innerHeight;
+
+    viewHeight == 0
+      ? setScrollPercent(0)
+      : setScrollPercent(
+          (window.scrollY / (document.body.clientHeight - window.innerHeight)) *
+            100
+        );
   };
 
   return (
