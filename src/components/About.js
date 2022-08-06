@@ -1,26 +1,29 @@
 const About = () => {
   return (
-    <div className="text-lg">
-      <div className="text-2xl">Hey, I'm Bilal! &#128075;&#127997;</div>
-      <div className="pt-3">
-        I'm currently a Master's student at the{" "}
+    <div className="text-md">
+      <div className="text-xl">Hey, I'm Bilal! &#128075;&#127997;</div>
+      <div className="pt-4">
+        I'm currently a Master's student studying computer science at the{" "}
         <a
-          className="text-indigo-500 font-medium hover:underline underline-offset-2 decoration-4 hover:ease-in"
+          className="text-indigo-500 font-medium hover:underline underline-offset-2 decoration-[3px] hover:ease-in"
           href="https://www.upenn.edu/"
         >
           University of Pennsylvania
         </a>
-        , studying computer science.
+        .
       </div>
       <div className="pt-3">
         In 2021, I graduated from{" "}
         <a
-          className="text-indigo-500 font-medium hover:underline underline-offset-2 decoration-4"
+          className="text-indigo-500 font-medium hover:underline underline-offset-2 decoration-[3px]"
           href="https://www.mcgill.ca/"
         >
-          McGill Universit
+          McGill University
         </a>
-        , where I studied physiology and mathematics.
+        , where I studied physiology and mathematics. The interdisciplinary
+        academic experiences I had as a student there inspired my transition
+        into technology. I hope to combine my knowledge with computing to
+        develop software that helps people lead healthier lives.
       </div>
       <div className="pt-3">
         In a previous life, I was a high jumper for McGill's track and field
