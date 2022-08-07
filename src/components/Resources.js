@@ -1,6 +1,6 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBook, faLandmark } from "@fortawesome/free-solid-svg-icons";
-import { faYoutube } from "@fortawesome/free-brands-svg-icons";
+import ResourceClass from "./ResourceClass";
+import ResourceBook from "./ResourceBook";
+import ResourceVideo from "./ResourceVideo";
 
 const Resources = () => {
   return (
@@ -11,41 +11,46 @@ const Resources = () => {
       </div>
       <div>
         <div className="font-semibold pt-4">Programming Basics</div>
-        <div className="pt-2">
-          Composing Programs (by John Denero){" "}
-          <FontAwesomeIcon className="ml-1 text-lg" icon={faBook} />
-        </div>
+        <ResourceBook
+          name="Composing Programs"
+          author="John Denero"
+          link="https://composingprograms.com/"
+        />
 
         <div className="font-semibold pt-4">Math</div>
-        <div className="pt-2">
-          TrevTutor's <span className="italic">Discrete Math 1</span>{" "}
-          <FontAwesomeIcon className="ml-1 text-lg" icon={faYoutube} />
-        </div>
-        <div className="pt-2">
-          3Blue1Brown's{" "}
-          <span className="italic">Essence of Linear Algebra</span>{" "}
-          <FontAwesomeIcon className="ml-1 text-lg" icon={faYoutube} />
-        </div>
+        <ResourceVideo
+          author="TrevTutor"
+          name="Discrete Math 1"
+          link="https://www.youtube.com/playlist?list=PLDDGPdw7e6Ag1EIznZ-m-qXu4XX3A0cIz"
+        />
+        <ResourceVideo
+          author="3Blue1Brown"
+          name="Essence of Linear Algebra"
+          link="https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab"
+        />
 
         <div className="font-semibold pt-4">Data Structures and Algorithms</div>
-        <div className="pt-2">
-          William Fiset (various playlists){" "}
-          <FontAwesomeIcon className="ml-1 text-lg" icon={faYoutube} />
-        </div>
-        <div className="pt-2">
-          Abdul Bari's <span className="italic">Algorithms</span>{" "}
-          <FontAwesomeIcon className="ml-1 text-lg" icon={faYoutube} />
-        </div>
+        <ResourceVideo
+          author="William Fiset"
+          name="various playlists"
+          link="https://www.youtube.com/c/WilliamFiset-videos"
+        />
+        <ResourceVideo
+          author="Abdul Bari"
+          name="Algorithms"
+          link="https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O"
+        />
 
         <div className="font-semibold pt-4">Web Development</div>
-        <div className="pt-2">
-          The Net Ninja (various playlists){" "}
-          <FontAwesomeIcon className="ml-1 text-lg" icon={faYoutube} />
-        </div>
-        <div className="pt-2">
-          Full Stack Open 2022{" "}
-          <FontAwesomeIcon className="ml-1 text-lg" icon={faLandmark} />
-        </div>
+        <ResourceVideo
+          author="The Net Ninja"
+          name="various playlists"
+          link="https://www.youtube.com/c/TheNetNinja"
+        />
+        <ResourceClass
+          name="Full Stack Open 2022"
+          link="https://fullstackopen.com/en/"
+        />
       </div>
       <div className="text-lg font-semibold text-center pt-4">
         Happy learning! :)
