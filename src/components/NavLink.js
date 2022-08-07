@@ -12,7 +12,7 @@ const NavLink = ({ title }) => {
       <div
         onClick={handleClick}
         className={
-          window.location.pathname == `/${title.toLowerCase()}`
+          window.location.pathname === `/${title.toLowerCase()}`
             ? "text-indigo-500"
             : ""
         }

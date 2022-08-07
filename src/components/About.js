@@ -22,13 +22,14 @@ const About = () => {
         </a>
         , where I studied physiology and mathematics. The interdisciplinary
         academic experiences I had as a student there inspired my transition
-        into technology. I hope to combine my knowledge with computing to
-        develop software that helps people lead healthier lives.
+        into computing. I'm passionate about exploring the intersection of my
+        fields, and I hope to contribute to the development of products that
+        help people lead healthier lives.
       </div>
       <div className="pt-3">
-        In a previous life, I was a high jumper for McGill's track and field
-        team. Although I no longer compete, I've maintained my passion for
-        sports through weightlifting and biking.
+        In a previous life, I was a high jumper on McGill's track and field
+        team. Since graduating, I've maintained my passion for sports through
+        weightlifting and biking.
       </div>
       <div className="pt-3">
         <span className="font-semibold">Things I love:</span> wearable tech, my
