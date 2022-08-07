@@ -7,7 +7,7 @@ const Intro = () => {
       <h1 className="text-5xl tracking-wider font-bold text-sky-600">
         Bilal Ali
       </h1>
-      <h2 className="text-2xl pt-3 tracking-wide font-light">
+      <h2 className="text-xl md:text-2xl pt-3 px-10 tracking-wide font-light">
         computer science student @ upenn
       </h2>
       <div className="flex justify-center">

@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faDisplay } from "@fortawesome/free-solid-svg-icons";
 import {
   faReact,
@@ -13,11 +12,14 @@ import ProjectLink from "./ProjectLink";
 
 const Projects = () => (
   <div className="text-md">
+    <div className="md:hidden font-semibold text-2xl text-sky-600 mt-20">
+      Projects
+    </div>
     {/* Start of project */}
-    <div>
+    <div className="pt-5 md:pt-0">
       <div className="text-lg font-semibold">
         Git-lite
-        <span className="ml-2">
+        <span className="md:ml-3 block md:inline pt-2 md:pt-0">
           <TechIcon name="Java" icon={faJava} />
           <TechIcon name="Git" icon={faGitAlt} />
         </span>
@@ -39,7 +41,7 @@ const Projects = () => (
     <div className="pt-8">
       <div className="text-lg font-semibold">
         Amplify
-        <span className="ml-2">
+        <span className="md:ml-3 block md:inline pt-2 md:pt-0">
           <TechIcon name="React" icon={faReact} />
           <TechIcon name="Node.js" icon={faNode} />
           <TechIcon name="Express.js" icon={faNodeJs} />

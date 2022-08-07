@@ -6,7 +6,7 @@ const ResourceVideo = ({ author, name, link }) => {
     <div className="pt-2">
       {name === "various playlists" ? (
         <div>
-          <FontAwesomeIcon className="ml-1 mr-2 text-lg" icon={faYoutube} />
+          <FontAwesomeIcon className="ml-1 mr-2" icon={faYoutube} />
           <a
             className="text-indigo-500 font-medium hover:underline decoration-[3px] underline-offset-2 decoration-indigo-500"
             href={link}
@@ -17,7 +17,7 @@ const ResourceVideo = ({ author, name, link }) => {
       ) : (
         <div>
           {" "}
-          <FontAwesomeIcon className="ml-1 mr-2 text-lg" icon={faYoutube} />
+          <FontAwesomeIcon className="ml-1 mr-2" icon={faYoutube} />
           <a
             className="text-indigo-500 font-medium hover:underline decoration-[3px] underline-offset-2 decoration-indigo-500"
             href={link}

@@ -4,7 +4,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
     // elements placed in flex container to place at both ends
-    <div className="flex justify-between py-2">
+    <div className="flex justify-between py-2 px-4">
       <span>Bilal Ali &copy; 2022</span>
       <a
         href="https://github.com/bilala45/personal-website"

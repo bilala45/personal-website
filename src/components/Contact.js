@@ -9,7 +9,7 @@ const Contact = () => {
 
   return (
     // add padding above and below links and center
-    <div className="mt-10 py-1 px-1.5 rounded-full max-w-fit bg-sky-600">
+    <div className="mt-10 py-0.5 sm:py-1 px-1 sm:px-1.5 rounded-full max-w-fit bg-sky-600">
       <ContactLink icon={faGithub} link={github} />
       <ContactLink icon={faLinkedinIn} link={linkedin} />
       <ContactLink icon={faEnvelope} link={email} />

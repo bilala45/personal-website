@@ -5,7 +5,10 @@ import ResourceVideo from "./ResourceVideo";
 const Resources = () => {
   return (
     <div className="text-md">
-      <div className="text-md">
+      <div className="md:hidden font-semibold text-2xl text-sky-600 mt-20">
+        Resources
+      </div>
+      <div className="text-md pt-5 md:pt-0">
         There are many free online resources out there to help you learn math
         and computer science. Here are the ones I've enjoyed most!
       </div>
@@ -52,9 +55,9 @@ const Resources = () => {
           link="https://fullstackopen.com/en/"
         />
       </div>
-      <div className="text-lg font-semibold text-center pt-4">
+      {/* <div className="text-lg font-semibold text-center pt-4">
         Happy learning! :)
-      </div>
+      </div> */}
     </div>
   );
 };
