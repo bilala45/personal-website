@@ -8,7 +8,7 @@ const Content = () => (
     <div className="col-span-1 mr-10 border-r-2">
       <Nav />
     </div>
-    <div className="col-span-3 py-3.5">
+    <div className="col-span-3 pt-3.5 pb-4">
       <Main />
     </div>
   </div>

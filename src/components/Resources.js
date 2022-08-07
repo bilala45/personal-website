@@ -1,77 +1,55 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBook, faLandmark } from "@fortawesome/free-solid-svg-icons";
+import { faYoutube } from "@fortawesome/free-brands-svg-icons";
+
 const Resources = () => {
   return (
     <div className="text-md">
-      <div className="text-lg">
-        Much of what I've learned about computer science and math has come from
-        various free online resources. Here are some of the ones I've enjoyed
-        most.
+      <div className="text-md">
+        There are many free online resources out there to help you learn math
+        and computer science. Here are the ones I've enjoyed most!
       </div>
       <div>
-        <div className="pt-4">
-          TrevTutor's Discrete Math 1 playlist{" "}
-          <a
-            className="px-1.5 py-0.5 mx-1 rounded-md bg-red-300"
-            href="https://www.youtube.com/playlist?list=PLDDGPdw7e6Ag1EIznZ-m-qXu4XX3A0cIz"
-          >
-            Youtube
-          </a>
+        <div className="font-semibold pt-4">Programming Basics</div>
+        <div className="pt-2">
+          Composing Programs (by John Denero){" "}
+          <FontAwesomeIcon className="ml-1 text-lg" icon={faBook} />
         </div>
-        <div className="pt-3">
-          3Blue1Brown's Essence of Linear Algebra playlist{" "}
-          <a
-            className="px-1.5 py-0.5 mx-1 rounded-md bg-red-300"
-            href="https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab"
-          >
-            Youtube
-          </a>
+
+        <div className="font-semibold pt-4">Math</div>
+        <div className="pt-2">
+          TrevTutor's <span className="italic">Discrete Math 1</span>{" "}
+          <FontAwesomeIcon className="ml-1 text-lg" icon={faYoutube} />
         </div>
-        <div className="pt-3">
-          Abdul Bari's Algorithms playlist{" "}
-          <a
-            className="px-1.5 py-0.5 mx-1 rounded-md bg-red-300"
-            href="https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O"
-          >
-            Youtube
-          </a>
+        <div className="pt-2">
+          3Blue1Brown's{" "}
+          <span className="italic">Essence of Linear Algebra</span>{" "}
+          <FontAwesomeIcon className="ml-1 text-lg" icon={faYoutube} />
         </div>
-        <div className="pt-3">
-          The Net Ninja (various playlists){" "}
-          <a
-            className="px-1.5 py-0.5 mx-1 rounded-md bg-red-300"
-            href="https://www.youtube.com/c/TheNetNinja"
-          >
-            Youtube
-          </a>
-        </div>
-        <div className="pt-3">
+
+        <div className="font-semibold pt-4">Data Structures and Algorithms</div>
+        <div className="pt-2">
           William Fiset (various playlists){" "}
-          <a
-            className="px-1.5 py-0.5 mx-1 rounded-md bg-red-300"
-            href="https://www.youtube.com/c/WilliamFiset-videos"
-          >
-            Youtube
-          </a>
+          <FontAwesomeIcon className="ml-1 text-lg" icon={faYoutube} />
         </div>
-        <div className="pt-3">
-          Composing Programs (John DeNero){" "}
-          <a
-            className="px-1.5 py-0.5 mx-1 rounded-md bg-emerald-200"
-            href="https://composingprograms.com/"
-          >
-            Online Textbook
-          </a>
+        <div className="pt-2">
+          Abdul Bari's <span className="italic">Algorithms</span>{" "}
+          <FontAwesomeIcon className="ml-1 text-lg" icon={faYoutube} />
         </div>
-        <div className="pt-3">
+
+        <div className="font-semibold pt-4">Web Development</div>
+        <div className="pt-2">
+          The Net Ninja (various playlists){" "}
+          <FontAwesomeIcon className="ml-1 text-lg" icon={faYoutube} />
+        </div>
+        <div className="pt-2">
           Full Stack Open 2022{" "}
-          <a
-            className="px-1.5 py-0.5 mx-1 rounded-md bg-violet-200"
-            href="https://fullstackopen.com/en/"
-          >
-            Online Course
-          </a>
+          <FontAwesomeIcon className="ml-1 text-lg" icon={faLandmark} />
         </div>
       </div>
-      <div className="text-lg pt-4">Happy learning!</div>
+      <div className="text-lg font-semibold text-center pt-4">
+        Happy learning! :)
+      </div>
     </div>
   );
 };
