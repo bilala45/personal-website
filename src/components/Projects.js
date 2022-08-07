@@ -8,19 +8,18 @@ import {
   faNode,
   faGitAlt,
 } from "@fortawesome/free-brands-svg-icons";
+import TechIcon from "./TechIcon";
+import ProjectLink from "./ProjectLink";
 
 const Projects = () => (
   <div className="text-md">
     {/* Start of project */}
-    <div className="">
+    <div>
       <div className="text-lg font-semibold">
-        Git-lite{" "}
-        <span className="px-1.5 py-0.5 mr-1 ml-2 rounded-md bg-sky-600 text-white text-sm font-normal">
-          <FontAwesomeIcon className="mr-0.5" icon={faJava} /> Java
-        </span>
-        <span className="px-1.5 py-0.5 mx-1 rounded-md bg-sky-600 text-white text-sm font-normal">
-          <FontAwesomeIcon className="mr-1" icon={faGitAlt} />
-          Git
+        Git-lite
+        <span className="ml-2">
+          <TechIcon name="Java" icon={faJava} />
+          <TechIcon name="Git" icon={faGitAlt} />
         </span>
       </div>
       <div className="pt-3">
@@ -28,34 +27,23 @@ const Projects = () => (
         committing, merging, amending and branching.
       </div>
       <div className="pt-3">
-        <FontAwesomeIcon icon={faCode} />
-        <a href="https://github.com/bilala45/git-lite">
-          <span className="ml-2 font-medium text-indigo-500 hover:underline decoration-4 underline-offset-2">
-            Code
-          </span>
-        </a>
+        <ProjectLink
+          icon={faCode}
+          link="https://github.com/bilala45/git-lite"
+          name="Code"
+        />
       </div>
     </div>
 
     {/* Start of project */}
     <div className="pt-8">
       <div className="text-lg font-semibold">
-        Amplify{" "}
-        <span className="px-1.5 py-0.5 mr-1 ml-2 rounded-md bg-sky-600 text-white text-sm font-normal">
-          <FontAwesomeIcon className="mr-1" icon={faReact} />
-          React
-        </span>
-        <span className="px-1.5 py-0.5 mx-1 rounded-md bg-sky-600 text-white text-sm font-normal">
-          <FontAwesomeIcon className="mr-1.5" icon={faNode} />
-          Node.js
-        </span>
-        <span className="px-1.5 py-0.5 mx-1 rounded-md bg-sky-600 text-white text-sm font-normal">
-          <FontAwesomeIcon className="mr-1.5" icon={faNodeJs} />
-          Express.js
-        </span>
-        <span className="px-1.5 py-0.5 mx-1 rounded-md bg-sky-600 text-white text-sm font-normal">
-          <FontAwesomeIcon className="mr-1.5" icon={faSpotify} />
-          Spotify API
+        Amplify
+        <span className="ml-2">
+          <TechIcon name="React" icon={faReact} />
+          <TechIcon name="Node.js" icon={faNode} />
+          <TechIcon name="Express.js" icon={faNodeJs} />
+          <TechIcon name="Spotify API" icon={faSpotify} />
         </span>
       </div>
       <div className="pt-3">
@@ -63,22 +51,16 @@ const Projects = () => (
         songs from the discography of an artist queried by the user.
       </div>
       <div className="pt-3">
-        <span className="mr-6">
-          <FontAwesomeIcon icon={faCode} />
-          <a href="https://github.com/bilala45/git-lite">
-            <span className="ml-2 font-medium text-indigo-500 hover:underline decoration-4 underline-offset-2">
-              Code
-            </span>
-          </a>
-        </span>
-        <span>
-          <FontAwesomeIcon icon={faDisplay} />
-          <a href="https://github.com/bilala45/git-lite">
-            <span className="ml-2 font-medium text-indigo-500 hover:underline decoration-4 underline-offset-2">
-              Demo
-            </span>
-          </a>
-        </span>
+        <ProjectLink
+          icon={faCode}
+          link="https://github.com/bilala45/git-lite"
+          name="Code"
+        />
+        <ProjectLink
+          icon={faDisplay}
+          link="https://github.com/bilala45/git-lite"
+          name="Demo"
+        />
       </div>
     </div>
   </div>
