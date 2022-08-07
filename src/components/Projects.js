@@ -26,7 +26,7 @@ const Projects = () => (
       </div>
       <div className="pt-3">
         A command-line app that mimics the local features of Git, including
-        committing, merging, amending and branching.
+        committing, merging, amending, and branching.
       </div>
       <div className="pt-3">
         <ProjectLink
@@ -55,14 +55,14 @@ const Projects = () => (
       <div className="pt-3">
         <ProjectLink
           icon={faCode}
-          link="https://github.com/bilala45/git-lite"
+          link="https://github.com/bilala45/artist-recommender"
           name="Code"
         />
-        <ProjectLink
+        {/* <ProjectLink
           icon={faDisplay}
           link="https://github.com/bilala45/git-lite"
           name="Demo"
-        />
+        /> */}
       </div>
     </div>
   </div>

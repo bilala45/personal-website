@@ -9,7 +9,7 @@ const ResourceBook = ({ name, author, link }) => (
       className="text-indigo-500 font-medium hover:underline decoration-[3px] underline-offset-2 decoration-indigo-500"
       href={link}
     >
-      {name} (by {author})
+      <span className="italic">{name}</span> (by {author})
     </a>
   </div>
 );

@@ -22,7 +22,7 @@ const ResourceVideo = ({ author, name, link }) => {
             className="text-indigo-500 font-medium hover:underline decoration-[3px] underline-offset-2 decoration-indigo-500"
             href={link}
           >
-            {author}'s <span className="italic">{name}</span>
+            {author}'s <span className="italic">{name}</span> playlist
           </a>
         </div>
       )}

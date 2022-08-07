@@ -29,7 +29,7 @@ const About = () => {
         fields, and I hope to contribute to the development of products that
         help people lead healthier lives.
       </div>
-      {/* <div className="pt-3">
+      <div className="pt-3">
         In a previous life, I was a high jumper on McGill's track and field
         team. Since graduating, I've maintained my passion for sports through
         weightlifting and biking.
@@ -37,7 +37,7 @@ const About = () => {
       <div className="pt-3">
         <span className="font-semibold">Things I love:</span> wearable tech, my
         (future) corgi, and Kendrick Lamar
-      </div> */}
+      </div>
     </div>
   );
 };
