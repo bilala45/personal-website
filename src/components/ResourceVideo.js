@@ -8,7 +8,7 @@ const ResourceVideo = ({ author, name, link }) => {
         <div>
           <FontAwesomeIcon className="ml-1 mr-2" icon={faYoutube} />
           <a
-            className="text-indigo-500 font-medium hover:underline decoration-[3px] underline-offset-2 decoration-indigo-500"
+            className="underline hover:text-sky-600 underline-offset-4 decoration-1 decoration-slate-300"
             href={link}
           >
             {author} ({name})
@@ -19,7 +19,7 @@ const ResourceVideo = ({ author, name, link }) => {
           {" "}
           <FontAwesomeIcon className="ml-1 mr-2" icon={faYoutube} />
           <a
-            className="text-indigo-500 font-medium hover:underline decoration-[3px] underline-offset-2 decoration-indigo-500"
+            className="underline hover:text-sky-600 underline-offset-4 decoration-1 decoration-slate-300"
             href={link}
           >
             {author}'s <span className="italic">{name}</span> playlist

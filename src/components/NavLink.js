@@ -8,7 +8,7 @@ const NavLink = ({ title }) => {
   };
 
   return (
-    <div className="mt-4 font-medium text-lg w-fit hover:text-sky-600 hover:underline underline-offset-2 decoration-4 cursor-pointer">
+    <div className="mt-4 font-medium text-lg w-fit hover:text-sky-600 hover:underline underline-offset-4 decoration-4 cursor-pointer">
       <div
         onClick={handleClick}
         className={
