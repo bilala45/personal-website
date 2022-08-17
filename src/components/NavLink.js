@@ -1,4 +1,4 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 const NavLink = ({ title }) => {
   const navigate = useNavigate();
@@ -12,12 +12,12 @@ const NavLink = ({ title }) => {
       <div
         onClick={handleClick}
         className={
-          window.location.pathname === `/${title.toLowerCase()}`
+          useLocation().pathname === `/${title.toLowerCase()}`
             ? "bg-sky-500 text-white rounded-lg px-2.5 font-normal"
             : "px-2.5"
         }
       >
-        {title}
+        {title || "About"}
       </div>
     </div>
   );
