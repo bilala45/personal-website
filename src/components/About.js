@@ -42,15 +42,3 @@ const About = () => {
 };
 
 export default About;
-
-// underline hover:text-sky-600 underline-offset-4 decoration-1 decoration-slate-300
-
-// I love solving challenging problems with code and applying what I've
-//         learned to build interesting projects. I'm passionate about combining
-//         what I learn to explore the intersection of my fields, and I hope to
-//         someday build products that help people lead healthier lives. I'm
-//         interested in exploring solving challenging problems with code and
-//         applying what I've learned to build interesting projects. I'm passionate
-//         about combining what I learn to explore the intersection of my fields,
-//         and I hope to someday build products that help people lead healthier
-//         lives. I enjoy using what

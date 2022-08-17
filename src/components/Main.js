@@ -12,10 +12,10 @@ const Main = () => (
     </div>
     <div className="hidden md:block">
       <Routes>
-        <Route path="/" element={<About />} />
+        <Route path="" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/resources" element={<Resources />} />
-        <Route path="*" element={<Navigate to="/" replace />} />
+        <Route path="*" element={<Navigate to="" replace />} />
       </Routes>
     </div>
   </div>
