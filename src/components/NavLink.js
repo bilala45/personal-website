@@ -13,7 +13,7 @@ const NavLink = ({ title }) => {
         onClick={handleClick}
         className={
           useLocation().pathname === `/${title.toLowerCase()}`
-            ? "bg-sky-500 text-white rounded-lg px-2.5 font-normal"
+            ? "bg-sky-200 text-black rounded-lg px-4 font-normal hover:bg-sky-300"
             : "px-2.5"
         }
       >

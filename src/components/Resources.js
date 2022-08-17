@@ -55,7 +55,7 @@ const Resources = () => {
           link="https://fullstackopen.com/en/"
         />
       </div>
-      <div className="font-semibold text-center pt-5">Happy learning! :)</div>
+      <div className="font-semibold pt-5">Happy learning! :)</div>
     </div>
   );
 };
