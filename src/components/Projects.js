@@ -1,13 +1,5 @@
-import { faCode, faDisplay } from "@fortawesome/free-solid-svg-icons";
-import {
-  faReact,
-  faJava,
-  faNodeJs,
-  faSpotify,
-  faNode,
-  faGitAlt,
-} from "@fortawesome/free-brands-svg-icons";
-import TechIcon from "./TechIcon";
+import { FaGitAlt, FaJava, FaNodeJs, FaReact, FaSpotify } from "react-icons/fa";
+import { SiExpress, SiTailwindcss } from "react-icons/si";
 import ProjectLink from "./ProjectLink";
 
 const Projects = () => (
@@ -15,13 +7,20 @@ const Projects = () => (
     <div className="md:hidden font-semibold text-2xl text-sky-600 mt-20">
       Projects
     </div>
+
     {/* Start of project */}
     <div className="pt-5 md:pt-0">
       <div className="text-lg font-semibold">
         Git-lite
-        <span className="md:ml-3 block md:inline pt-2 md:pt-0">
-          <TechIcon name="Java" icon={faJava} />
-          <TechIcon name="Git" icon={faGitAlt} />
+        <span className="flex pt-3 text-black text-sm font-normal">
+          <span className="flex items-center px-1.5 mr-1.5 w-fit rounded-md bg-slate-300">
+            <FaJava className="mr-1" />
+            Java
+          </span>
+          <span className="flex items-center px-1.5 mr-1.5 w-fit rounded-md bg-slate-300">
+            <FaGitAlt className="mr-1" />
+            Git
+          </span>
         </span>
       </div>
       <div className="pt-3">
@@ -29,11 +28,7 @@ const Projects = () => (
         committing, merging, amending, and branching.
       </div>
       <div className="pt-3">
-        <ProjectLink
-          icon={faCode}
-          link="https://github.com/bilala45/git-lite"
-          name="Code"
-        />
+        <ProjectLink link="https://github.com/bilala45/git-lite" name="Code" />
       </div>
     </div>
 
@@ -41,11 +36,27 @@ const Projects = () => (
     <div className="pt-8">
       <div className="text-lg font-semibold">
         Amplify
-        <span className="md:ml-3 block md:inline pt-2 md:pt-0">
-          <TechIcon name="React" icon={faReact} />
-          <TechIcon name="Node.js" icon={faNode} />
-          <TechIcon name="Express.js" icon={faNodeJs} />
-          <TechIcon name="Spotify API" icon={faSpotify} />
+        <span className="flex flex-wrap sm:pt-3 pt-1 text-black text-sm font-normal">
+          <span className="flex items-center px-1.5 mr-1.5 w-fit rounded-md bg-slate-300 sm:mt-0 mt-2">
+            <FaReact className="mr-1" />
+            React
+          </span>
+          <span className="flex items-center px-1.5 mr-1.5 w-fit rounded-md bg-slate-300 sm:mt-0 mt-2">
+            <FaNodeJs className="mr-1" />
+            Node.js
+          </span>
+          <span className="flex items-center px-1.5 mr-1.5 w-fit rounded-md bg-slate-300 sm:mt-0 mt-2">
+            <SiExpress className="mr-1" />
+            Express.js
+          </span>
+          <span className="flex items-center px-1.5 mr-1.5 w-fit rounded-md bg-slate-300 sm:mt-0 mt-2">
+            <FaSpotify className="mr-1" />
+            Spotify Web API
+          </span>
+          <span className="flex items-center px-1.5 mr-1.5 w-fit rounded-md bg-slate-300 sm:mt-0 mt-2">
+            <SiTailwindcss className="mr-1" />
+            Tailwind CSS
+          </span>
         </span>
       </div>
       <div className="pt-3">
@@ -54,7 +65,6 @@ const Projects = () => (
       </div>
       <div className="pt-3">
         <ProjectLink
-          icon={faCode}
           link="https://github.com/bilala45/artist-recommender"
           name="Code"
         />

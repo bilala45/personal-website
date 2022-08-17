@@ -8,13 +8,13 @@ const NavLink = ({ title }) => {
   };
 
   return (
-    <div className="mt-4 font-medium text-lg w-fit hover:text-sky-600 hover:underline underline-offset-4 decoration-4 cursor-pointer">
+    <div className="mt-4 font-normal text-base w-fit hover:bg-slate-200 rounded-lg cursor-pointer">
       <div
         onClick={handleClick}
         className={
           window.location.pathname === `/${title.toLowerCase()}`
-            ? "text-sky-600"
-            : ""
+            ? "bg-sky-500 text-white rounded-lg px-2.5 font-normal"
+            : "px-2.5"
         }
       >
         {title}
@@ -24,3 +24,5 @@ const NavLink = ({ title }) => {
 };
 
 export default NavLink;
+
+// hover:underline underline-offset-4 decoration-4

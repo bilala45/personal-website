@@ -1,12 +1,11 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { FaYoutube } from "react-icons/fa";
 
 const ResourceVideo = ({ author, name, link }) => {
   return (
     <div className="pt-2">
       {name === "various playlists" ? (
-        <div>
-          <FontAwesomeIcon className="ml-1 mr-2" icon={faYoutube} />
+        <div className="flex items-center">
+          <FaYoutube className="ml-1 mr-2" />
           <a
             className="underline hover:text-sky-600 underline-offset-4 decoration-1 decoration-slate-300"
             href={link}
@@ -15,9 +14,9 @@ const ResourceVideo = ({ author, name, link }) => {
           </a>
         </div>
       ) : (
-        <div>
+        <div className="flex items-center">
           {" "}
-          <FontAwesomeIcon className="ml-1 mr-2" icon={faYoutube} />
+          <FaYoutube className="ml-1 mr-2" />
           <a
             className="underline hover:text-sky-600 underline-offset-4 decoration-1 decoration-slate-300"
             href={link}

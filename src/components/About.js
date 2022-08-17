@@ -2,10 +2,10 @@ const About = () => {
   return (
     <div className="text-md">
       <div className="md:hidden font-semibold text-2xl text-sky-600">About</div>
-      <div className="pt-5 md:pt-0 md:text-xl">
+      <div className="pt-5 md:pt-0 font-semibold text-lg">
         Hey, I'm Bilal! &#128075;&#127997;
       </div>
-      <div className="pt-3 md:pt-4">
+      <div className="pt-3">
         I'm a Master's student studying computer science at the{" "}
         <a
           className="underline hover:text-sky-600 underline-offset-4 decoration-1 decoration-slate-300"
@@ -24,10 +24,14 @@ const About = () => {
           McGill University
         </a>
         , where I studied physiology and mathematics. The interdisciplinary
-        academic experiences I had as a student there inspired my transition
-        into computing. I'm passionate about exploring the intersection of my
-        fields, and I hope to contribute to the development of products that
-        help people lead healthier lives.
+        experiences I had as a student there inspired my transition into
+        computing. I'm excited to combine what I've learned to build software
+        products that help people lead healthier lives.
+      </div>
+      <div className="pt-3">
+        In a previous life, I was a high jumper for McGill's track and field
+        team. Although I no longer compete, I've maintained my passion for
+        sports through weightlifting and biking.
       </div>
       <div className="pt-3">
         <span className="font-semibold">Things I love:</span> wearable tech, my
@@ -38,3 +42,15 @@ const About = () => {
 };
 
 export default About;
+
+// underline hover:text-sky-600 underline-offset-4 decoration-1 decoration-slate-300
+
+// I love solving challenging problems with code and applying what I've
+//         learned to build interesting projects. I'm passionate about combining
+//         what I learn to explore the intersection of my fields, and I hope to
+//         someday build products that help people lead healthier lives. I'm
+//         interested in exploring solving challenging problems with code and
+//         applying what I've learned to build interesting projects. I'm passionate
+//         about combining what I learn to explore the intersection of my fields,
+//         and I hope to someday build products that help people lead healthier
+//         lives. I enjoy using what

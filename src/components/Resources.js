@@ -9,8 +9,8 @@ const Resources = () => {
         Resources
       </div>
       <div className="pt-5 md:pt-0">
-        There are many free online resources out there to help you learn math
-        and computer science. Here are the ones I've enjoyed most!
+        There are many free online resources out there to help you learn
+        computer science and math. Here are the ones I've enjoyed most!
       </div>
       <div>
         <div className="font-semibold pt-4">Programming and CS Basics</div>

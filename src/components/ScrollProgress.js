@@ -19,7 +19,7 @@ const ScrollProgress = () => {
     // add z-index and fixed position to sit above content and stay at top of page
     // gradient background color
     <div
-      className="scrollBar h-2 z-10 fixed bg-gradient-to-r from-sky-500 to-indigo-500"
+      className="scrollBar h-2 z-10 fixed bg-gradient-to-r from-sky-500 to-blue-500"
       style={{ width: `${scrollPercent}%` }}
     ></div>
   );
