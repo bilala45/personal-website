@@ -25,13 +25,13 @@ const About = () => {
         </a>
         , where I studied physiology and mathematics. The interdisciplinary
         experiences I had as a student there inspired my transition into
-        computing. I'm excited to combine what I've learned to build software
-        products that help people lead healthier lives.
+        computing. I'm excited to combine what I've learned across different
+        fields to build software products that help people lead healthier lives.
       </div>
       <div className="pt-3">
         In a previous life, I was a high jumper for McGill's track and field
         team. Although I no longer compete, I've maintained my passion for
-        sports through weightlifting and biking.
+        sports through weightlifting and hiking.
       </div>
       <div className="pt-3">
         <span className="font-semibold">Things I love:</span> wearable tech, my
