@@ -23,19 +23,24 @@ const About = () => {
         >
           McGill University
         </a>
-        , where I studied physiology and mathematics. The interdisciplinary
-        experiences I had as a student there inspired my transition into
-        computing. I'm excited to combine what I've learned across different
-        fields to build software products that help people lead healthier lives.
+        , where I studied physiology and mathematics. Following this, I interned
+        at a small biotech startup called{" "}
+        <a
+          className="underline hover:text-sky-600 underline-offset-4 decoration-1 decoration-slate-300"
+          href="https://www.normative.ca/"
+        >
+          Normative
+        </a>
+        , helping develop user portals for their web application.
       </div>
       <div className="pt-3">
-        In a previous life, I was a high jumper for McGill's track and field
-        team. Although I no longer compete, I've maintained my passion for
-        sports through weightlifting and hiking.
+        These interdisciplinary experiences have inspired my transition into
+        computing. I'm looking forward to using my knowledge to build new and
+        exciting software products!
       </div>
       <div className="pt-3">
-        <span className="font-semibold">Things I love:</span> wearable tech, my
-        (future) corgi, and Kendrick Lamar
+        <span className="font-semibold">Things I love:</span> wearable tech,
+        autonomous vehicles, and music by Kendrick Lamar
       </div>
     </div>
   );

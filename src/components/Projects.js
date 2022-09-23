@@ -11,30 +11,6 @@ const Projects = () => (
     {/* Start of project */}
     <div className="pt-5 md:pt-0">
       <div className="text-lg font-semibold">
-        Git-lite
-        <span className="flex pt-3 text-black text-sm font-normal">
-          <span className="flex items-center px-1.5 mr-1.5 w-fit rounded-md bg-slate-300">
-            <FaJava className="mr-1" />
-            Java
-          </span>
-          <span className="flex items-center px-1.5 mr-1.5 w-fit rounded-md bg-slate-300">
-            <FaGitAlt className="mr-1" />
-            Git
-          </span>
-        </span>
-      </div>
-      <div className="pt-3">
-        A command-line app that mimics the local features of Git, including
-        committing, merging, amending, and branching.
-      </div>
-      <div className="pt-3">
-        <ProjectLink link="https://github.com/bilala45/git-lite" name="Code" />
-      </div>
-    </div>
-
-    {/* Start of project */}
-    <div className="pt-8">
-      <div className="text-lg font-semibold">
         Amplify
         <span className="flex flex-wrap sm:pt-3 pt-1 text-black text-sm font-normal">
           <span className="flex items-center px-1.5 mr-1.5 w-fit rounded-md bg-slate-300 sm:mt-0 mt-2">
@@ -60,8 +36,8 @@ const Projects = () => (
         </span>
       </div>
       <div className="pt-3">
-        A web app that analyzes a user's music listening history and recommends
-        songs from the discography of an artist queried by the user.
+        A fully-responsive web application that analyzes a user's top played
+        songs to generate artist-specific song recommendations.
       </div>
       <div className="pt-3">
         <ProjectLink
@@ -73,6 +49,30 @@ const Projects = () => (
           link="https://github.com/bilala45/git-lite"
           name="Demo"
         /> */}
+      </div>
+    </div>
+
+    {/* Start of project */}
+    <div className="pt-8">
+      <div className="text-lg font-semibold">
+        Git-lite
+        <span className="flex pt-3 text-black text-sm font-normal">
+          <span className="flex items-center px-1.5 mr-1.5 w-fit rounded-md bg-slate-300">
+            <FaJava className="mr-1" />
+            Java
+          </span>
+          <span className="flex items-center px-1.5 mr-1.5 w-fit rounded-md bg-slate-300">
+            <FaGitAlt className="mr-1" />
+            Git
+          </span>
+        </span>
+      </div>
+      <div className="pt-3">
+        A command-line app that mimics local features of Git, including
+        committing, merging, amending, and branching.
+      </div>
+      <div className="pt-3">
+        <ProjectLink link="https://github.com/bilala45/git-lite" name="Code" />
       </div>
     </div>
   </div>
