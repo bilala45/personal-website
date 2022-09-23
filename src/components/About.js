@@ -23,18 +23,18 @@ const About = () => {
         >
           McGill University
         </a>
-        , where I studied physiology and mathematics. Following this, I interned
-        at a small biotech startup called{" "}
+        , where I studied physiology and mathematics. After graduating, I
+        interned at a biotech startup called{" "}
         <a
           className="underline hover:text-sky-600 underline-offset-4 decoration-1 decoration-slate-300"
           href="https://www.normative.ca/"
         >
           Normative
         </a>
-        , helping develop user portals for their web application.
+        , where I developed user portals for their web application.
       </div>
       <div className="pt-3">
-        These interdisciplinary experiences have inspired my transition into
+        My experiences as a student and intern helped inspire my transition into
         computing. I'm looking forward to using my knowledge to build new and
         exciting software products!
       </div>
