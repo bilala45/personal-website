@@ -28,13 +28,13 @@ const About = () => {
         developing scalable, cloud-based microservices.
       </div>
 
-      <div className="pt-3">
+      <div className="pt-2">
         Interned for a small biotech startup called{" "}
         <ResourceLink link="https://www.normative.ca/" name="Normative" />,
         developing their primary web app.
       </div>
 
-      <div className="pt-3">
+      <div className="pt-2">
         Graduated from{" "}
         <ResourceLink link="https://www.mcgill.ca/" name=" McGill University" />{" "}
         in 2021.

@@ -1,6 +1,6 @@
 import { FaGithub, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
 
-const Contact = () => (
+const ContactBar = () => (
   // add padding above and below links and center
   <div className="flex justify-center mt-6">
     <div className="flex p-1 sm:px-1.5 rounded-full max-w-fit bg-sky-500">
@@ -26,4 +26,4 @@ const Contact = () => (
   </div>
 );
 
-export default Contact;
+export default ContactBar;

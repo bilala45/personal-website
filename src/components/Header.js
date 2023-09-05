@@ -1,6 +1,6 @@
-import Contact from "./Contact";
+import ContactBar from "./ContactBar";
 
-const Intro = () => {
+const Header = () => {
   return (
     // wrapper inherits parent height (screen height)
     <div className="px-5 pb-20 text-center">
@@ -8,9 +8,9 @@ const Intro = () => {
       <h2 className="text-xl md:text-xl mt-5 tracking-wide font-light ">
         computer science @ upenn
       </h2>
-      <Contact />
+      <ContactBar />
     </div>
   );
 };
 
-export default Intro;
+export default Header;

@@ -1,6 +1,6 @@
 import ScrollProgress from "./components/utils/ScrollProgress";
 import Content from "./components/Content";
-import Intro from "./components/Intro";
+import Header from "./components/Header";
 
 const App = () => {
   // Wrap content and footer in a div to restrict the max screen size
@@ -9,7 +9,7 @@ const App = () => {
       <ScrollProgress />
       <div className="max-w-screen-md mx-auto">
         <div className="py-28">
-          <Intro />
+          <Header />
           <Content />
         </div>
       </div>
