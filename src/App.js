@@ -1,4 +1,4 @@
-import ScrollProgress from "./components/ScrollProgress";
+import ScrollProgress from "./components/utils/ScrollProgress";
 import Content from "./components/Content";
 import Intro from "./components/Intro";
 

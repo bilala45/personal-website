@@ -1,6 +1,6 @@
 import { FaGitAlt, FaJava, FaNodeJs, FaReact, FaSpotify } from "react-icons/fa";
 import { SiExpress, SiTailwindcss } from "react-icons/si";
-import ProjectLink from "./ProjectLink";
+import ProjectLink from "./utils/ProjectLink";
 
 const Projects = () => (
   <div className="text-md">
