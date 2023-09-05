@@ -6,41 +6,31 @@ const About = () => {
         Hey, I'm Bilal! &#128075;&#127997;
       </div>
       <div className="pt-3">
-        I'm a Master's student studying computer science at the{" "}
-        <a
-          className="underline hover:text-sky-600 underline-offset-4 decoration-1 decoration-slate-300"
-          href="https://www.upenn.edu/"
-        >
-          University of Pennsylvania
-        </a>
-        .
+        I'm a Master's student studying computer science at the University of
+        Pennsylvania.
       </div>
       <div className="pt-3">
-        In 2021, I graduated from{" "}
+        Previously, in 2021, I graduated from McGill University. During my
+        studies, I've interned at{" "}
         <a
-          className="underline hover:text-sky-600 underline-offset-4 decoration-1 decoration-slate-300"
-          href="https://www.mcgill.ca/"
-        >
-          McGill University
-        </a>
-        , where I studied physiology and mathematics. After graduating, I
-        interned at a biotech startup called{" "}
-        <a
-          className="underline hover:text-sky-600 underline-offset-4 decoration-1 decoration-slate-300"
+          className="text-sky-600 hover:underline hover:underline-offset-4 decoration-1 decoration-slate-300"
           href="https://www.normative.ca/"
         >
           Normative
         </a>
-        , where I developed user portals for their web application.
+        , a small biotech startup, and most recently at{" "}
+        <a
+          className="underline hover:text-sky-600 underline-offset-4 decoration-1 decoration-slate-300"
+          href="https://www.genesys.com/"
+        >
+          Genesys
+        </a>
+        , a large cloud-based SaaS company. Currently, I'm TA'ing CIT 5910:
+        Introduction to Software Development.
       </div>
       <div className="pt-3">
-        My experiences as a student and intern helped inspire my transition into
-        computing. I'm looking forward to using my knowledge to build new and
-        exciting software products!
-      </div>
-      <div className="pt-3">
-        <span className="font-semibold">Things I love:</span> wearable tech,
-        autonomous vehicles, and music by Kendrick Lamar
+        Things I'm interested in: backend engineering, software system design,
+        and distributed systems.
       </div>
     </div>
   );
