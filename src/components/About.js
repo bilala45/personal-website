@@ -15,7 +15,7 @@ const About = () => {
         I'm a Master's student (graduating 2025) at the{" "}
         <ResourceLink
           link="https://www.upenn.edu/"
-          name=" University of Pennsylvania"
+          name="University of Pennsylvania"
         />
         . I study computer science and I'm TAing an intro software dev class!
       </div>
@@ -23,20 +23,18 @@ const About = () => {
       <div className="pt-5 font-semibold text-lg">previously</div>
 
       <div className="pt-3">
-        Interned with{" "}
-        <ResourceLink link="https://www.genesys.com/" name="Genesys" />,
-        developing scalable, cloud-based microservices.
+        Wrote backend code for cloud-based microservices at{" "}
+        <ResourceLink link="https://www.genesys.com/" name="Genesys" />.
       </div>
 
       <div className="pt-2">
-        Interned for a small biotech startup called{" "}
-        <ResourceLink link="https://www.normative.ca/" name="Normative" />,
-        developing their primary web app.
+        Helped develop a web app for a small biotech startup called{" "}
+        <ResourceLink link="https://www.normative.ca/" name="Normative" />.
       </div>
 
       <div className="pt-2">
         Graduated from{" "}
-        <ResourceLink link="https://www.mcgill.ca/" name=" McGill University" />{" "}
+        <ResourceLink link="https://www.mcgill.ca/" name="McGill University" />{" "}
         in 2021.
       </div>
 
