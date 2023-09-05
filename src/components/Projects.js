@@ -1,5 +1,5 @@
 import { FaGitAlt, FaJava, FaNodeJs, FaReact, FaSpotify } from "react-icons/fa";
-import { SiExpress, SiTailwindcss } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
 import ProjectLink from "./utils/ProjectLink";
 
 const Projects = () => (
@@ -17,22 +17,21 @@ const Projects = () => (
             <FaReact className="mr-1" />
             React
           </span>
+
           <span className="flex items-center px-1.5 mr-1.5 w-fit rounded-md bg-slate-300 sm:mt-0 mt-2">
             <FaNodeJs className="mr-1" />
             Node.js
           </span>
+
           <span className="flex items-center px-1.5 mr-1.5 w-fit rounded-md bg-slate-300 sm:mt-0 mt-2">
             <SiExpress className="mr-1" />
             Express.js
           </span>
+
           <span className="flex items-center px-1.5 mr-1.5 w-fit rounded-md bg-slate-300 sm:mt-0 mt-2">
             <FaSpotify className="mr-1" />
             Spotify Web API
           </span>
-          {/* <span className="flex items-center px-1.5 mr-1.5 w-fit rounded-md bg-slate-300 sm:mt-0 mt-2">
-            <SiTailwindcss className="mr-1" />
-            Tailwind CSS
-          </span> */}
         </span>
       </div>
       <div className="pt-3">
@@ -44,11 +43,6 @@ const Projects = () => (
           link="https://github.com/bilala45/artist-recommender"
           name="Code"
         />
-        {/* <ProjectLink
-          icon={faDisplay}
-          link="https://github.com/bilala45/git-lite"
-          name="Demo"
-        /> */}
       </div>
     </div>
 
@@ -68,17 +62,13 @@ const Projects = () => (
         </span>
       </div>
       <div className="pt-3">
-        A command-line app that wraps Git, designed to make Git more
-        appraochable to new developers by providing explanations and
-        visualizations of commands.
+        A command-line app that wraps Git using JGit, designed to make Git more
+        approachable to new developers.
       </div>
-      {/* <div className="pt-3">
-        <ProjectLink link="https://github.com/bilala45/git-lite" name="Code" />
-      </div> */}
     </div>
 
     {/* Start of project */}
-    <div className="pt-8">
+    {/* <div className="pt-8">
       <div className="text-lg font-semibold">
         Snippet
         <span className="flex flex-wrap sm:pt-3 pt-1 text-black text-sm font-normal">
@@ -105,13 +95,8 @@ const Projects = () => (
           link="https://github.com/bilala45/artist-recommender"
           name="Code"
         />
-        {/* <ProjectLink
-          icon={faDisplay}
-          link="https://github.com/bilala45/git-lite"
-          name="Demo"
-        /> */}
       </div>
-    </div>
+    </div> */}
   </div>
 );
 
