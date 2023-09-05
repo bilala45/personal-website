@@ -1,4 +1,4 @@
-import Nav from "./Nav";
+import NavLink from "./NavLink";
 import Main from "./Main";
 
 const Content = () => (
@@ -6,7 +6,10 @@ const Content = () => (
   // Nav occupies 1/3 of grid, Main occupies 2/3
   <div className="grid grid-cols-4">
     <div className="col-span-1 mr-10 border-r-2 border-slate-200 hidden md:block">
-      <Nav />
+      <div className="pl-4">
+        <NavLink title="" />
+        <NavLink title="Projects" />
+      </div>
     </div>
     <div className="col-span-4 md:col-span-3 py-0 md:pt-3.5 md:pb-4 px-5 md:pl-0 md:pr-4">
       <Main />
